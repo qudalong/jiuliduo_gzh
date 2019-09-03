@@ -1,0 +1,93 @@
+.my-coupon-list-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F9F8F8;
+}
+
+.my-coupon-list-wrap .mint-header {
+  background: #F9F8F8;
+  color: #333;
+}
+
+.my-coupon-list-wrap .mint-navbar {
+  background: #F9F8F8;
+}
+
+.my-coupon-list-wrap .mint-navbar .is-selected {
+  color: #FD5F65;
+}
+
+.my-coupon-list-wrap .mint-navbar .is-selected .mint-tab-item-label {
+  border-bottom: .06rem solid #FD5F65;
+}
+
+.my-coupon-list-wrap .mint-navbar .mint-tab-item {
+  padding: 0 0;
+}
+
+.my-coupon-list-wrap .mint-navbar .mint-tab-item-label {
+  font-size: .28rem;
+  width: 1rem;
+  line-height: .6rem;
+  margin: 0 auto;
+  border-bottom: .06rem solid #F9F8F8;
+}
+
+.my-coupon-list-wrap .mint-tab-container {
+  background: #F9F8F8;
+}
+
+.my-coupon-list-wrap .mint-tab-container ul li .coupon-inf {
+  width: 6.77rem;
+  height: 2.26rem;
+  background: url(../../assets/quan.png);
+  background-size: 100% 100%;
+  margin: 0.2rem auto 0;
+  position: relative;
+}
+
+.my-coupon-list-wrap .mint-tab-container ul li .coupon-inf .discount {
+  width: 2.26rem;
+  height: 2.26rem;
+  overflow: hidden;
+  line-height: 2.26rem;
+  float: left;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.my-coupon-list-wrap .mint-tab-container ul li .coupon-inf .discount span {
+  font-size: .26rem;
+}
+
+.my-coupon-list-wrap .mint-tab-container ul li .coupon-inf .range {
+  width: 3.6rem;
+  height: 1.8rem;
+  background: #fff;
+  float: right;
+  margin-right: .3rem;
+}
+
+.my-coupon-list-wrap .mint-tab-container ul li .coupon-inf .range h4 {
+  font-size: .24rem;
+  color: #333;
+  margin-bottom: .06rem;
+  margin-top: .6rem;
+}
+
+.my-coupon-list-wrap .mint-tab-container ul li .coupon-inf .range p {
+  font-size: .2rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.my-coupon-list-wrap .mint-tab-container ul li .coupon-inf img {
+  width: 1.5rem;
+  height: 1.3rem;
+  position: absolute;
+  right: .3rem;
+  bottom: .45rem;
+}
+/*# sourceMappingURL=index.css.map */

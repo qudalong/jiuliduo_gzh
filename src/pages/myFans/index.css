@@ -1,0 +1,33 @@
+.my-fans-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F9F8F8;
+}
+
+.my-fans-wrap .mint-header {
+  background: #F9F8F8;
+  color: #333;
+}
+
+.my-fans-wrap .fans-list {
+  color: #333;
+  width: 7.5rem;
+  padding: 0 ,3rem;
+  margin: 0 auto;
+  background: #fff;
+  padding: .2rem 0;
+}
+
+.my-fans-wrap .fans-list li {
+  line-height: .8rem;
+  height: .8rem;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.my-fans-wrap .fans-list li p {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

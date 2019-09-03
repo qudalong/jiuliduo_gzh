@@ -1,0 +1,71 @@
+.openvip-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F9F8F8;
+}
+
+.openvip-wrap .mint-header {
+  background: #F9F8F8;
+  color: #333;
+}
+
+.openvip-wrap .banner {
+  width: 7.5rem;
+  height: 2.8rem;
+  margin: 0 auto;
+}
+
+.openvip-wrap .banner img {
+  width: 7.5rem;
+  height: 2.8rem;
+}
+
+.openvip-wrap .mint-cell {
+  border-bottom: 1px solid #eee;
+  padding: 0 .3rem;
+}
+
+.openvip-wrap .mint-cell .mint-cell-text {
+  font-size: .26rem;
+  color: #333;
+}
+
+.openvip-wrap .mint-cell img {
+  width: .32rem;
+  height: .32rem;
+}
+
+.openvip-wrap .agree-radio {
+  padding: .2rem .3rem;
+  height: .26rem;
+  line-height: .26rem;
+}
+
+.openvip-wrap .agree-radio input {
+  float: left;
+  margin-right: .1rem;
+  margin-top: 0.01rem;
+}
+
+.openvip-wrap .agree-radio i {
+  float: left;
+  font-size: .26rem;
+}
+
+.openvip-wrap .submit-btn button {
+  width: 6.9rem;
+  height: .8rem;
+  display: block;
+  line-height: .8rem;
+  background: #ccc;
+  margin: 5rem auto .6rem;
+  font-size: .26rem;
+  border-radius: .2rem;
+  color: #fff;
+}
+
+.openvip-wrap .submit-btn .active {
+  background: #FD5F65;
+}
+/*# sourceMappingURL=index.css.map */

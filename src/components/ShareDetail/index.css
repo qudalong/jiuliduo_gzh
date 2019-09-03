@@ -1,0 +1,58 @@
+.share-detail-wrap {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.share-detail-wrap .share-list-wrap {
+  width: 7.5rem;
+  height: 3.4rem;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3.75rem;
+  background: #fff;
+}
+
+.share-detail-wrap .share-list-wrap ul li {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding-top: .44rem;
+}
+
+.share-detail-wrap .share-list-wrap ul li div {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.share-detail-wrap .share-list-wrap ul li div img {
+  width: .6rem;
+  height: .6rem;
+  margin-top: .2rem;
+}
+
+.share-detail-wrap .share-list-wrap ul li p {
+  color: #333;
+  font-size: .22rem;
+  margin-top: .16rem;
+}
+
+.share-detail-wrap .share-list-wrap .cancle-btn {
+  width: 100%;
+  text-align: center;
+  height: 1.04rem;
+  line-height: 1.04rem;
+  font-size: .26rem;
+  background: #fff;
+  margin-top: .36rem;
+}
+/*# sourceMappingURL=index.css.map */

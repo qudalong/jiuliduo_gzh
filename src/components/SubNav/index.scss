@@ -1,0 +1,21 @@
+.subnav-wrap {
+    height: 2.1rem;
+    li{
+        width: 1.12rem;
+        margin-left: .6rem;
+        padding-top: .26rem;
+        float: left;
+        text-align: center;
+        a{
+            img{
+                width: 1.12rem;
+                height: 1.12rem;
+            }
+            p{
+                font-size: .26rem;
+                color: #333;
+                margin-top: .04rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.vip-agree-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F9F8F8;
+}
+
+.vip-agree-wrap .mint-header {
+  background: #F9F8F8;
+  color: #333;
+}
+
+.vip-agree-wrap .agree-list {
+  line-height: 1.5;
+  color: #333;
+  width: 6.9rem;
+  margin: 0 auto;
+}
+
+.vip-agree-wrap .agree-list p {
+  margin-top: .2rem;
+  font-size: .26rem;
+  text-indent: .52rem;
+}
+/*# sourceMappingURL=index.css.map */

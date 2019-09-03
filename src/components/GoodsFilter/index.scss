@@ -1,0 +1,51 @@
+.goods-filter-wrap {
+    width: 100%;
+    position: relative;
+
+    .goods-filter {
+        position: relative;
+        border-bottom: 1px solid #eee;
+
+        li {
+            width: 25%;
+            float: left;
+            text-align: center;
+            line-height: .8rem;
+
+            i {
+                width: 0;
+                height: 0;
+                border-width: 0 .06rem .06rem;
+                border-style: solid;
+                border-color: transparent transparent #333;
+                display: inline-block;
+                margin-bottom: .06rem;
+                transition: all .3s;
+                transform: rotate(180deg);
+            }
+        }
+
+        .active {
+            color: #FD5F65;
+
+            i {
+                border-color: transparent transparent #FD5F65;
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+    .price-list {
+        width: 100%;
+        position: absolute;
+        background: #fff;
+
+        li {
+            width: 6.9rem;
+            margin: 0 auto;
+            height: .8rem;
+            line-height: .8rem;
+            border-bottom: 1px solid #eee;
+        }
+    }
+}

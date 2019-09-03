@@ -1,0 +1,75 @@
+.cash-out-wrap {
+    width: 7.5rem;
+    margin: 0 auto;
+    height: 100vh;
+    background: #F9F8F8;
+    .cash-out-head {
+        height: 2.7rem;
+        background: #FD5F65;
+
+        .mint-header {
+            background: #FD5F65;
+
+        }
+        .cash-out-money{
+            height: 1.8rem;
+            line-height: 1.8rem;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            b{
+                font-size: 1rem;
+            }
+            i{
+                position: absolute;
+                left: .4rem;
+                bottom: -0.2rem;
+            }
+        }
+    }
+    .cash-out-inf-list{
+        width: 7.5rem;
+        margin: 0 auto;
+        padding: 0 .3rem;
+        background: #fff;
+        border-bottom: 1px solid #eee;
+        img{
+            width: .32rem;
+            height: .32rem;
+            float: left;
+            margin-top: .42rem;
+        }
+        .mint-field{
+            width: 7rem;
+            float: left;
+            padding-right: .24rem;
+            .mint-cell-title{
+                font-size: .26rem;
+                color: #333;
+            }
+            input{
+                font-size: .26rem;
+                margin-top: .06rem;
+            }
+            .mint-field-other{
+                color: #FD5F65;
+                font-size: .24rem;
+            }
+        }
+    }
+    .submit-btn {
+        .mint-button {
+            width: 6.9rem;
+            margin: 3rem auto 0rem;
+            font-size: .26rem;
+        }
+    }
+    .tips{
+        width: 4.8rem;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0.1rem auto 0;
+        font-size: .22rem;
+        color: #FD5F65;
+    }
+}

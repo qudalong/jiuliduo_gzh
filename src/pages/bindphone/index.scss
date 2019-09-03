@@ -1,0 +1,38 @@
+.bind-phone-wrap {
+    width: 7.5rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #F9F8F8;
+
+    .mint-header {
+        background: #F9F8F8;
+        color: #333;
+    }
+
+    .mint-cell {
+        padding: 0 .3rem;
+        border-bottom: 1px solid #eee;
+
+        input {
+            color: #999;
+            font-size: .26rem;
+        }
+
+        .mint-field-other {
+            span {
+                color: #FD5F65;
+                font-size: .26rem;
+            }
+        }
+    }
+
+    .submit-btn {
+        .mint-button {
+            width: 6.9rem;
+            margin: 8rem auto 1rem;
+            font-size: .26rem;
+        }
+    }
+
+
+}

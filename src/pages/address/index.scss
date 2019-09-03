@@ -1,0 +1,68 @@
+.change-address-wrap {
+    width: 7.5rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #F9F8F8;
+
+    .mint-header {
+        background: #F9F8F8;
+        color: #333;
+    }
+
+    .mint-cell {
+        padding: 0 .3rem;
+        border-bottom: 1px solid #eee;
+
+        .mint-cell-text {
+            font-size: .26rem;
+        }
+
+        input {
+            font-size: .26rem;
+        }
+    }
+
+    .switch {
+        height: .96rem;
+        line-height: .96rem;
+        padding: 0 .5rem;
+        background: #fff;
+
+        span {
+            float: left;
+        }
+
+        .mint-switch {
+            float: right;
+            transform: scale(.6);
+            margin-top: .14rem;
+
+            .mint-switch-input:checked+.mint-switch-core {
+                background: #FD5F65;
+                border-color:#FD5F65;
+            }
+        }
+    }
+    .delete{
+        border-top: 1px solid #eee;
+        span{
+            color: #FD5F65;
+
+        }
+    }
+
+    .submit-btn {
+        .mint-button {
+            width: 6.9rem;
+            margin: 4rem auto 1rem;
+            font-size: .26rem;
+        }
+    }
+
+}
+.mint-msgbox{
+    width: 60%;
+    .mint-msgbox-confirm{
+        color: #FD5F65;
+    }
+}

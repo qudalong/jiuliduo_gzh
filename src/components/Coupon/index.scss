@@ -1,0 +1,85 @@
+.coupon-wrap{
+    width: 100%;
+    height: 100%;
+    background: rgba($color: #000000, $alpha: 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    .coupon-list{
+        width: 7.5rem;
+        height: 6rem;
+        background: #F0EEEE;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3.75rem;
+        padding-top: .5rem;
+        .coupons{
+            width: 6.9rem;
+            margin: 0 auto;
+            height: 4.72rem;
+            overflow-y: auto;
+            
+            li{
+                height: 1.86rem;
+                margin-bottom: .5rem;
+                .coupon-inf{
+                    width: 5.57rem;
+                    height: 1.86rem;
+                    background: url(../../assets/quan.png);
+                    background-size: 100% 100%;
+                    float: left;
+                    .discount{
+                        width: 1.86rem;
+                        line-height: 1.86rem;
+                        float: left;
+                        text-align: center;
+                        font-size: 1.5rem;
+                        color: #fff;
+                        span{
+                            font-size: .26rem;
+                        }
+                    }
+                    .range{
+                        width: 2.6rem;
+                        height: 1.8rem;
+                        background: #fff;
+                        float: right;
+                        margin-right: .3rem;
+                        h4{
+                            font-size: .24rem;
+                            color: #333;
+                            margin-bottom: .06rem;
+                            margin-top: .4rem;
+                        }
+                        p{
+                            font-size: .2rem;
+                            color: #666;
+                            line-height: 1.5;
+                        }
+                    }
+                }
+                input{
+                    width: .4rem;
+                    height: .4rem;
+                    float: left;
+                    margin-left: .4rem;
+                    margin-top: .68rem;
+                }
+
+            }
+        }
+        .ok-btn {
+            width: 6.9rem;
+            position: absolute;
+            bottom: .5rem;
+            left: 50%;
+            margin-left: -3.45rem;
+            .mint-button {
+                width: 6.9rem;
+                font-size: .26rem;
+            }
+        }
+    }
+}

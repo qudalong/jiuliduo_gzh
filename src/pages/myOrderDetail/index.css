@@ -1,0 +1,196 @@
+.my-order-detail-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F9F8F8;
+}
+
+.my-order-detail-wrap .mint-header {
+  background: #FD5F65;
+  color: #fff;
+}
+
+.my-order-detail-wrap .order-state {
+  height: 1.8rem;
+  background: #FD5F65;
+  padding: 0 .8rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+}
+
+.my-order-detail-wrap .order-state h4 {
+  margin: 0 auto .2rem;
+  padding-top: .4rem;
+  font-size: .3rem;
+  font-weight: normal;
+}
+
+.my-order-detail-wrap .order-state p {
+  font-size: .24rem;
+}
+
+.my-order-detail-wrap .address,
+.my-order-detail-wrap .express-state {
+  width: 7.5rem;
+  margin: 0 auto;
+  padding: 0 0.3rem 0 .5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+}
+
+.my-order-detail-wrap .address .img,
+.my-order-detail-wrap .express-state .img {
+  width: .64rem;
+  height: .64rem;
+  float: left;
+  margin-top: 0.56rem;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.my-order-detail-wrap .address .mint-cell,
+.my-order-detail-wrap .express-state .mint-cell {
+  padding: .4rem 0;
+  font-size: .26rem;
+}
+
+.my-order-detail-wrap .address .mint-cell .mint-cell-text,
+.my-order-detail-wrap .express-state .mint-cell .mint-cell-text {
+  font-size: .26rem;
+  color: #008FD7;
+}
+
+.my-order-detail-wrap .address .mint-cell .mint-cell-label,
+.my-order-detail-wrap .express-state .mint-cell .mint-cell-label {
+  line-height: 1.5;
+  font-size: .26rem;
+  color: #999;
+}
+
+.my-order-detail-wrap .express-state {
+  border-bottom: .12rem solid #F9F8F8;
+}
+
+.my-order-detail-wrap .express-state .img {
+  background: #008FD7;
+}
+
+.my-order-detail-wrap .express-state .img img {
+  width: .4rem;
+  height: .29rem;
+  margin-top: .16rem;
+}
+
+.my-order-detail-wrap .address-wrap {
+  background: #fff;
+  border-bottom: .12rem solid #F9F8F8;
+}
+
+.my-order-detail-wrap .address-wrap .address .img {
+  background: #f00;
+}
+
+.my-order-detail-wrap .address-wrap .address .img img {
+  width: .27rem;
+  height: .35rem;
+  margin-top: .12rem;
+}
+
+.my-order-detail-wrap .address-wrap .address .mint-cell-text {
+  font-size: .26rem;
+  color: #333 !important;
+}
+
+.my-order-detail-wrap .address-wrap .express-time {
+  padding: 0 .6rem .4rem;
+}
+
+.my-order-detail-wrap .address-wrap .express-time i {
+  float: left;
+}
+
+.my-order-detail-wrap .address-wrap .express-time b {
+  float: right;
+}
+
+.my-order-detail-wrap .goods-inf {
+  width: 7.5rem;
+  padding: .3rem .4rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  border-bottom: .16rem solid #F9F8F8;
+}
+
+.my-order-detail-wrap .goods-inf img {
+  width: 2rem;
+  height: 2rem;
+  float: left;
+}
+
+.my-order-detail-wrap .goods-inf .order-inf {
+  width: 4.5rem;
+  float: right;
+}
+
+.my-order-detail-wrap .goods-inf .order-inf h4 {
+  font-size: .26rem;
+  color: #333;
+  line-height: .36rem;
+  height: .72rem;
+  overflow: hidden;
+  font-weight: normal;
+}
+
+.my-order-detail-wrap .goods-inf .order-inf .price {
+  margin: .4rem auto;
+}
+
+.my-order-detail-wrap .goods-inf .order-inf .price i {
+  float: left;
+  color: red;
+  font-size: .32rem;
+  font-weight: bold;
+}
+
+.my-order-detail-wrap .goods-inf .order-inf .price b {
+  float: right;
+  font-size: .26rem;
+  color: #666;
+}
+
+.my-order-detail-wrap .goods-inf .order-inf .all-price {
+  text-align: right;
+  color: #333;
+}
+
+.my-order-detail-wrap .goods-inf .order-inf .all-price i {
+  color: red;
+  font-size: .32rem;
+  font-weight: bold;
+}
+
+.my-order-detail-wrap .goods-inf .order-inf .order-oper {
+  position: relative;
+  left: -0.5rem;
+  width: 5.2rem;
+}
+
+.my-order-detail-wrap .goods-inf .order-inf .order-oper p {
+  width: 1.4rem;
+  margin-right: .2rem;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  font-size: .24rem;
+  color: #333;
+  border-radius: .3rem;
+  border: 1px solid #666;
+  margin-top: .2rem;
+  float: right;
+}
+/*# sourceMappingURL=index.css.map */

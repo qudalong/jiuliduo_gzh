@@ -1,0 +1,36 @@
+.my-bank-card-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F9F8F8;
+}
+
+.my-bank-card-wrap .mint-header {
+  background: #F9F8F8;
+  color: #333;
+}
+
+.my-bank-card-wrap .mint-cell {
+  padding: 0 .3rem;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.my-bank-card-wrap .mint-cell .mint-cell-text {
+  font-size: .26rem;
+}
+.carditem{
+  height: .7rem;
+  /* width:100%; */
+  display: flex;
+  align-items: center;
+  padding:0 .5rem;
+  background: #fff;
+  color:#333;
+  justify-content: space-between;
+}
+.detail{
+  font-size: .14rem;
+  color:red;
+}
+/*# sourceMappingURL=index.css.map */

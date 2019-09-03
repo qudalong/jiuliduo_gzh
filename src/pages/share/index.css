@@ -1,0 +1,33 @@
+.share-wrap {
+  background: #fff;
+}
+
+.share-wrap .mint-header {
+  background: #fff;
+  color: #333;
+}
+
+.share-wrap .mint-header .mint-button-text img {
+  width: .35rem;
+  height: .36rem;
+}
+
+.share-wrap .share-mark-img {
+  width: 4.42rem;
+  height: 4.42rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.share-wrap .share-mark-img img {
+  width: 4.42rem;
+  height: 4.42rem;
+  margin-top: 1.4rem;
+}
+
+.share-wrap .share-mark-img p {
+  font-size: .32rem;
+  color: #333;
+  margin-top: .54rem;
+}
+/*# sourceMappingURL=index.css.map */

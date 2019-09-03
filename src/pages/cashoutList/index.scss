@@ -1,0 +1,68 @@
+.cash-out-list-wrap {
+    width: 7.5rem;
+    margin: 0 auto;
+
+    .mint-header {
+        background: #fff;
+        color: #333;
+    }
+
+    .score-out {
+        width: 2.02rem;
+        height: 2.02rem;
+        border-radius: 50%;
+        background: #FD5F65;
+        border: .18rem solid rgb(255, 158, 161);
+        text-align: center;
+        margin: .4rem auto;
+
+        h4 {
+            color: #fff;
+            font-size: .72rem;
+            line-height: 1rem;
+            font-weight: normal;
+            padding-top: .26rem;
+        }
+
+        p {
+            color: #fff;
+            font-size: .24rem;
+        }
+    }
+
+    .inf-title {
+        width: 7.5rem;
+        height: .3rem;
+        line-height: .3rem;
+        margin: 0 auto .4rem;
+        padding: 0 .32rem;
+        box-sizing: border-box;
+
+        i {
+            width: 2.4rem;
+            height: 1px;
+            float: left;
+            background: #ccc;
+            margin-top: .16rem;
+        }
+
+        b {
+            width: 2rem;
+            text-align: center;
+            float: left;
+            font-size: .32rem;
+            color: #333;
+        }
+    }
+
+    .lists {
+        padding: .1rem 0;
+        border-bottom: 1px solid #eee;
+
+        .mint-cell-value {
+            font-size: .52rem;
+            color: #FD5F65;
+        }
+    }
+
+}

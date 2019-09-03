@@ -1,0 +1,54 @@
+.agent-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F9F8F8;
+}
+
+.agent-wrap .mint-header {
+  background: #F9F8F8;
+  color: #333;
+}
+
+.agent-wrap .list {
+  padding: 0 .3rem;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.agent-wrap .list img {
+  width: .32rem;
+  height: .32rem;
+  float: left;
+  margin-top: .32rem;
+}
+
+.agent-wrap .list .mint-cell {
+  color: #333;
+  float: left;
+}
+
+.agent-wrap .list .mint-cell .pick-city {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.agent-wrap .list .mint-cell input {
+  font-size: .26rem;
+}
+
+.agent-wrap .list .mint-cell .mint-cell-text {
+  font-size: .26rem;
+}
+
+.agent-wrap .list .mint-cell .code {
+  font-size: .26rem;
+  color: #FD5F65;
+}
+
+.agent-wrap .submit-btn .mint-button {
+  width: 6.9rem;
+  margin: 5rem auto 1rem;
+  font-size: .26rem;
+}
+/*# sourceMappingURL=index.css.map */

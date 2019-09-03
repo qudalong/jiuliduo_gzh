@@ -1,0 +1,59 @@
+.placehold-box {
+  height: .98rem;
+  background: fff;
+}
+
+.nav-wrap {
+  width: 7.5rem;
+  height: .98rem;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3.75rem;
+  background: #fff;
+  border-top: 1px solid #efefef;
+}
+
+.nav-wrap li {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-top: .04rem;
+}
+
+.nav-wrap li a {
+  width: .5rem;
+}
+
+.nav-wrap li a img {
+  width: .5rem;
+  height: .5rem;
+  margin: 0 auto;
+}
+
+.nav-wrap li a .normal {
+  display: block;
+}
+
+.nav-wrap li a .pink {
+  display: none;
+}
+
+.nav-wrap li a p {
+  font-size: .2rem;
+  color: #aaa;
+  margin-top: .06rem;
+}
+
+.nav-wrap .active a .normal {
+  display: none;
+}
+
+.nav-wrap .active a .pink {
+  display: block;
+}
+
+.nav-wrap .active a p {
+  color: #FD5F65;
+}
+/*# sourceMappingURL=index.css.map */

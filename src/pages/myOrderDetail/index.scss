@@ -1,0 +1,193 @@
+.my-order-detail-wrap {
+    width: 7.5rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #F9F8F8;
+
+    .mint-header {
+        background: #FD5F65;
+        color: #fff;
+    }
+
+    .order-state {
+        height: 1.8rem;
+        background: #FD5F65;
+        padding: 0 .8rem;
+        box-sizing: border-box;
+        color: #fff;
+
+        h4 {
+            margin: 0 auto .2rem;
+            padding-top: .4rem;
+            font-size: .3rem;
+            font-weight: normal;
+        }
+
+        p {
+            font-size: .24rem;
+        }
+    }
+
+    .address,
+    .express-state {
+        width: 7.5rem;
+        margin: 0 auto;
+        padding: 0 0.3rem 0 .5rem;
+        box-sizing: border-box;
+        background: #fff;
+
+
+        .img {
+            width: .64rem;
+            height: .64rem;
+            float: left;
+            margin-top: 0.56rem;
+            border-radius: 50%;
+            box-sizing: border-box;
+            text-align: center;
+
+
+        }
+
+        .mint-cell {
+            padding: .4rem 0;
+            font-size: .26rem;
+
+            .mint-cell-text {
+                font-size: .26rem;
+                color: #008FD7;
+            }
+
+            .mint-cell-label {
+                line-height: 1.5;
+                font-size: .26rem;
+                color: #999;
+            }
+        }
+    }
+
+    .express-state {
+        border-bottom: .12rem solid #F9F8F8;
+
+        .img {
+            background: #008FD7;
+
+            img {
+                width: .4rem;
+                height: .29rem;
+                margin-top: .16rem;
+            }
+        }
+    }
+
+    .address-wrap {
+        background: #fff;
+        border-bottom: .12rem solid #F9F8F8;
+
+        .address {
+            .img {
+                background: #f00;
+
+                img {
+                    width: .27rem;
+                    height: .35rem;
+                    margin-top: .12rem;
+                }
+            }
+
+            .mint-cell-text {
+                font-size: .26rem;
+                color: #333 !important;
+            }
+        }
+
+        .express-time {
+            padding: 0 .6rem .4rem;
+
+            i {
+                float: left;
+            }
+
+            b {
+                float: right;
+            }
+        }
+    }
+
+    .goods-inf {
+        width: 7.5rem;
+        padding: .3rem .4rem;
+        box-sizing: border-box;
+        background: #fff;
+        border-bottom: .16rem solid #F9F8F8;
+
+        img {
+            width: 2rem;
+            height: 2rem;
+            float: left;
+        }
+
+        .order-inf {
+            width: 4.5rem;
+            float: right;
+
+            h4 {
+                font-size: .26rem;
+                color: #333;
+                line-height: .36rem;
+                height: .72rem;
+                overflow: hidden;
+                font-weight: normal;
+            }
+
+            .price {
+                margin: .4rem auto;
+
+                i {
+                    float: left;
+                    color: red;
+                    font-size: .32rem;
+                    font-weight: bold;
+                }
+
+                b {
+                    float: right;
+                    font-size: .26rem;
+                    color: #666;
+                }
+            }
+
+            .all-price {
+                text-align: right;
+                color: #333;
+
+                i {
+                    color: red;
+                    font-size: .32rem;
+                    font-weight: bold;
+                }
+            }
+
+            .order-oper {
+                position: relative;
+                left: -0.5rem;
+                width: 5.2rem;
+
+                p {
+                    width: 1.4rem;
+                    margin-right: .2rem;
+                    height: .5rem;
+                    line-height: .5rem;
+                    text-align: center;
+                    font-size: .24rem;
+                    color: #333;
+                    border-radius: .3rem;
+                    border: 1px solid #666;
+                    margin-top: .2rem;
+                    float: right;
+                }
+            }
+
+        }
+    }
+}

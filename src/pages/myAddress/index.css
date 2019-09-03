@@ -1,0 +1,44 @@
+.my-address-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F9F8F8;
+}
+
+.my-address-wrap .mint-header {
+  background: #F9F8F8;
+  color: #333;
+}
+
+.my-address-wrap .address-list {
+  padding: .3rem;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-address-wrap .address-list .middle {
+  flex: 1;
+  overflow: hidden;
+  color: #333;
+}
+.my-address-wrap .address-list .middle .middle-name {
+  padding-bottom: .1rem;
+}
+.my-address-wrap .address-list .edit-address {
+  width: 1rem;
+  text-align: center;
+  color: #999;
+}
+
+.my-address-wrap .mint-cell {
+  padding: 0rem 0.22rem;
+}
+
+.my-address-wrap .mint-cell .mint-cell-text {
+  font-size: .26rem;
+  color: #333;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,23 @@
+.subnav-wrap {
+  height: 2.1rem;
+}
+
+.subnav-wrap li {
+  width: 1.12rem;
+  margin-left: .6rem;
+  padding-top: .26rem;
+  float: left;
+  text-align: center;
+}
+
+.subnav-wrap li a img {
+  width: 1.12rem;
+  height: 1.12rem;
+}
+
+.subnav-wrap li a p {
+  font-size: .26rem;
+  color: #333;
+  margin-top: .04rem;
+}
+/*# sourceMappingURL=index.css.map */

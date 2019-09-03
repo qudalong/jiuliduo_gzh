@@ -1,0 +1,68 @@
+.agent-area-wrap {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+
+.agent-area-wrap .area {
+  background: #fff;
+  width: 5rem;
+  height: 4.2rem;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.5rem;
+  margin-top: -2.5rem;
+  border-radius: .1rem;
+}
+
+.agent-area-wrap .area .area-title {
+  height: .7rem;
+  line-height: .7rem;
+  text-align: center;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.agent-area-wrap .area .picker {
+  width: 5rem;
+  position: absolute;
+  top: -0.2rem;
+  z-index: 1;
+}
+
+.agent-area-wrap .area .picker .picker-items .picker-slot {
+  font-size: .24rem;
+}
+
+.agent-area-wrap .area .pick-oper {
+  width: 100%;
+  height: .8rem;
+  line-height: .8rem;
+  border-top: 1px solid #eee;
+  position: absolute;
+  background: #fff;
+  bottom: 0;
+  z-index: 3;
+}
+
+.agent-area-wrap .area .pick-oper button {
+  width: 50%;
+  text-align: center;
+  float: left;
+  line-height: .8rem;
+}
+
+.agent-area-wrap .area .pick-oper button:nth-child(2) {
+  border-left: 1px solid #eee;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FD5F65;
+}
+/*# sourceMappingURL=index.css.map */

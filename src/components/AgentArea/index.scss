@@ -1,0 +1,65 @@
+.agent-area-wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba($color: #000000, $alpha: .4);
+    left: 0;
+    top: 0;
+    z-index: 9;
+
+    .area {
+        background: #fff;
+        width: 5rem;
+        height: 4.2rem;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -2.5rem;
+        margin-top: -2.5rem;
+        border-radius: .1rem;
+        .area-title{
+            height: .7rem;
+            line-height: .7rem;
+            text-align: center;
+            background: #fff;
+            position: relative;
+            z-index: 2;
+        }
+        .picker {
+            width: 5rem;
+            position: absolute;
+            top: -0.2rem;
+            z-index: 1;
+            .picker-items {
+               
+                .picker-slot {
+                    font-size: .24rem;
+                }
+
+            }
+        }
+        .pick-oper{
+            width: 100%;
+            height: .8rem;
+            line-height: .8rem;
+            border-top: 1px solid #eee;
+            position: absolute;
+            background: #fff;
+            bottom: 0;
+            z-index: 3;
+            button{
+                width: 50%;
+                text-align: center;
+                float: left;
+                line-height: .8rem;
+                &:nth-child(2){
+                    border-left: 1px solid #eee;
+                    box-sizing: border-box;
+                    color: #FD5F65;
+                }
+            }
+        }
+
+    }
+}

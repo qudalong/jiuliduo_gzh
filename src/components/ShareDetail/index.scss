@@ -1,0 +1,54 @@
+.share-detail-wrap{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background: rgba($color: #000000, $alpha: 0.3);
+    .share-list-wrap{
+        width: 7.5rem;
+        height: 3.4rem;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3.75rem;
+        background: #fff;
+        ul{
+            li{
+                width: 25%;
+                float: left;
+                text-align: center;
+                padding-top: .44rem;
+                div{
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                    text-align: center;
+                  
+                    img{
+                        width: .6rem;
+                        height: .6rem;
+                        margin-top: .2rem;
+                    }
+                }
+                p{
+                    color: #333;
+                    font-size: .22rem;
+                    margin-top: .16rem;
+                }
+            }
+        }
+        .cancle-btn{
+            width: 100%;
+            text-align: center;
+            height: 1.04rem;
+            line-height: 1.04rem;
+            font-size: .26rem;
+            background: #fff;
+            margin-top: .36rem;
+        }
+    }
+}

@@ -1,0 +1,111 @@
+.my-order-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F9F8F8;
+}
+
+.my-order-wrap .mint-header {
+  background: #F9F8F8;
+  color: #333;
+}
+
+.my-order-wrap .mint-navbar {
+  background: #F9F8F8;
+}
+
+.my-order-wrap .mint-navbar .is-selected {
+  color: #FD5F65;
+  border-bottom:none !important;
+}
+
+.my-order-wrap .mint-navbar .is-selected .mint-tab-item-label {
+  border-bottom: .06rem solid #FD5F65;
+}
+
+.my-order-wrap .mint-navbar .mint-tab-item {
+  padding: 0 0;
+}
+
+.my-order-wrap .mint-navbar .mint-tab-item-label {
+  font-size: .28rem;
+  width: 1rem;
+  line-height: .6rem;
+  margin: 0 auto;
+  border-bottom: .06rem solid #F9F8F8;
+}
+
+.my-order-wrap .mint-tab-container {
+  background: #F9F8F8;
+}
+
+.my-order-wrap .mint-tab-container ul li .goods-inf {
+  width: 7.5rem;
+  padding: .3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  border-bottom: .16rem solid #F9F8F8;
+}
+
+.my-order-wrap .mint-tab-container ul li .goods-inf img {
+  width: 2rem;
+  height: 2rem;
+  float: left;
+}
+
+.my-order-wrap .mint-tab-container ul li .goods-inf .order-inf {
+  width: 4.5rem;
+  float: right;
+}
+
+.my-order-wrap .mint-tab-container ul li .goods-inf .order-inf h4 {
+  font-size: .26rem;
+  color: #333;
+  line-height: .36rem;
+  height: .72rem;
+  overflow: hidden;
+  font-weight: normal;
+}
+
+.my-order-wrap .mint-tab-container ul li .goods-inf .order-inf .price {
+  margin: .4rem auto;
+}
+
+.my-order-wrap .mint-tab-container ul li .goods-inf .order-inf .price i {
+  float: left;
+  color: red;
+  font-size: .32rem;
+  font-weight: bold;
+}
+
+.my-order-wrap .mint-tab-container ul li .goods-inf .order-inf .price b {
+  float: right;
+  font-size: .26rem;
+  color: #666;
+}
+
+.my-order-wrap .mint-tab-container ul li .goods-inf .order-inf .all-price {
+  text-align: right;
+  color: #333;
+}
+
+.my-order-wrap .mint-tab-container ul li .goods-inf .order-inf .all-price i {
+  color: red;
+  font-size: .32rem;
+  font-weight: bold;
+}
+
+.my-order-wrap .mint-tab-container ul li .goods-inf .order-inf .order-state {
+  width: 1.6rem;
+  height: .6rem;
+  line-height: .6rem;
+  text-align: center;
+  font-size: .26rem;
+  color: #333;
+  border-radius: .3rem;
+  border: 1px solid #666;
+  margin-top: .2rem;
+  float: right;
+}
+/*# sourceMappingURL=index.css.map */

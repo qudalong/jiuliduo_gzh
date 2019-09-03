@@ -1,0 +1,133 @@
+.order-wrap {
+  width: 7.5rem;
+  height: 100vh;
+  margin: 0 auto;
+  background: #F9F8F8;
+}
+
+.order-wrap .mint-header {
+  color: #333;
+  background: #F9F8F8;
+}
+
+.order-wrap .mint-cell-reset {
+  font-size: .26rem;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding: 0 .2rem;
+}
+
+.order-wrap .mint-cell-reset .mint-cell-text {
+  font-size: .26rem;
+}
+
+.order-wrap .mint-cell-reset .mint-cell-value {
+  font-size: .24rem;
+  color: #FD5F65;
+}
+
+.order-wrap .address {
+  width: 7.5rem;
+  margin: 0 auto;
+  padding: 0 0 0 .3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.order-wrap .address .img {
+  width: .64rem;
+  height: .64rem;
+  float: left;
+  margin-top: 0.56rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.order-wrap .address .img img {
+  width: .27rem;
+  height: .35rem;
+  margin-top: .13rem;
+}
+
+.order-wrap .address .mint-cell {
+  padding: .4rem 0;
+  font-size: .26rem;
+}
+
+.order-wrap .address .mint-cell .mint-cell-text {
+  font-size: .26rem;
+}
+
+.order-wrap .address .mint-cell .mint-cell-label {
+  line-height: 1.5;
+  font-size: .26rem;
+}
+
+.order-wrap .goods-inf {
+  width: 7.5rem;
+  padding: .3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.order-wrap .goods-inf img {
+  width: 2rem;
+  height: 2rem;
+  float: left;
+}
+
+.order-wrap .goods-inf .order-inf {
+  width: 4.5rem;
+  float: right;
+}
+
+.order-wrap .goods-inf .order-inf h4 {
+  font-size: .26rem;
+  color: #333;
+  line-height: .36rem;
+  height: .72rem;
+  overflow: hidden;
+  font-weight: normal;
+}
+
+.order-wrap .goods-inf .order-inf .price {
+  margin: .4rem auto;
+}
+
+.order-wrap .goods-inf .order-inf .price i {
+  float: left;
+  color: red;
+  font-size: .32rem;
+  font-weight: bold;
+}
+
+.order-wrap .goods-inf .order-inf .price b {
+  float: right;
+  font-size: .26rem;
+  color: #666;
+}
+
+.order-wrap .goods-inf .order-inf .all-price {
+  text-align: right;
+  color: #333;
+}
+
+.order-wrap .goods-inf .order-inf .all-price i {
+  color: red;
+  font-size: .32rem;
+  font-weight: bold;
+}
+
+.order-wrap .submit-btn .mint-button {
+  width: 6.9rem;
+  margin: 4rem auto 0rem;
+  font-size: .26rem;
+}
+/*# sourceMappingURL=index.css.map */

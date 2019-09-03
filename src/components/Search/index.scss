@@ -1,0 +1,29 @@
+.search-wrap {
+    margin-bottom: .08rem;
+    .mint-search {
+        height: auto;
+        .mint-searchbar {
+            background: #fff;
+            .mint-searchbar-inner{
+                width: 6.9rem;
+                height: .6rem;
+                background: #EFEFEF;
+                border-radius: .3rem;
+                padding: 0;
+                .mintui-search{
+                    margin-left: .16rem;
+                    margin-top: .06rem;
+                    font-size: .32rem;
+                }
+                .mint-searchbar-core{
+                    width: 80%;
+                    margin-left: .1rem;
+                    background: #EFEFEF;
+                    border-radius: .3rem;
+                    font-size: .2rem;
+                }
+            }
+        }
+
+    }
+}

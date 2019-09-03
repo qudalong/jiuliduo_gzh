@@ -1,0 +1,69 @@
+.cash-out-list-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+
+.cash-out-list-wrap .mint-header {
+  background: #fff;
+  color: #333;
+}
+
+.cash-out-list-wrap .score-out {
+  width: 2.02rem;
+  height: 2.02rem;
+  border-radius: 50%;
+  background: #FD5F65;
+  border: 0.18rem solid #ff9ea1;
+  text-align: center;
+  margin: .4rem auto;
+}
+
+.cash-out-list-wrap .score-out h4 {
+  color: #fff;
+  font-size: .72rem;
+  line-height: 1rem;
+  font-weight: normal;
+  padding-top: .26rem;
+}
+
+.cash-out-list-wrap .score-out p {
+  color: #fff;
+  font-size: .24rem;
+}
+
+.cash-out-list-wrap .inf-title {
+  width: 7.5rem;
+  height: .3rem;
+  line-height: .3rem;
+  margin: 0 auto .4rem;
+  padding: 0 .32rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cash-out-list-wrap .inf-title i {
+  width: 2.4rem;
+  height: 1px;
+  float: left;
+  background: #ccc;
+  margin-top: .16rem;
+}
+
+.cash-out-list-wrap .inf-title b {
+  width: 2rem;
+  text-align: center;
+  float: left;
+  font-size: .32rem;
+  color: #333;
+}
+
+.cash-out-list-wrap .lists {
+  padding: .1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cash-out-list-wrap .lists .mint-cell-value {
+  font-size: .52rem;
+  color: #FD5F65;
+}
+/*# sourceMappingURL=index.css.map */

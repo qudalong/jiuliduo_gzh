@@ -1,0 +1,37 @@
+.goods-list-wrap {
+    width: 7.5rem;
+    background: #f1f1f1;
+    margin: #f1f1f1;
+    padding: .2rem .44rem;
+    box-sizing: border-box;
+
+    .goods-list-item {
+        width: 3.2rem;
+        height: 4.58rem;
+        background: #fff;
+        float: left;
+        margin-bottom: .2rem;
+        img{
+            width: 3.2rem;
+            height: 3.2rem;
+        }
+        p{
+            width: 2.9rem;
+            margin: 0.04rem auto;
+            height: .7rem;
+            line-height: .35rem;
+            overflow: hidden;
+            font-size: .26rem;
+            font-size: #333;
+        }
+        h4{
+            width: 2.9rem;
+            margin: 0 auto;
+            color: #f00;
+            font-size: .32rem;
+        }
+        &:nth-child(2n) {
+            margin-left: .2rem;
+        }
+    }
+}

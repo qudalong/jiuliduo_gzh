@@ -1,0 +1,172 @@
+.goods-detail-wrap {
+    width: 7.5rem;
+    margin: 0 auto;
+    .banner {
+        width: 7.5rem;
+        height: 6.5rem;
+        position: relative;
+
+        i {
+            position: absolute;
+            left: 0.3rem;
+            top: 0.3rem;
+            width: .5rem;
+            height: .4rem;
+            font-size: .2rem;
+            background: #000;
+            border-radius: 50%;
+            color: #fff;
+            padding-top: .1rem;
+            opacity: .6;
+            z-index:999;
+        }
+
+        img {
+            width: 7.5rem;
+            height: 6.5rem;
+        }
+    }
+
+    .price {
+        width: 6.8rem;
+        margin: .4rem auto .32rem;
+        font-size: .48rem;
+        color: #f00;
+    }
+
+    .title {
+        line-height: 1.5;
+        font-size: .32rem;
+        width: 6.8rem;
+        margin: 0 auto .24rem;
+        color: #333;
+    }
+
+    .number-inf {
+        width: 6.8rem;
+        margin: 0 auto .24rem;
+        font-size: .26rem;
+        color: #666;
+
+        i {
+            width: 50%;
+            float: left;
+        }
+
+        b {
+            width: 50%;
+            float: left;
+            text-align: right;
+        }
+    }
+
+    .buy-number {
+        width: 6.8rem;
+        margin: 0 auto .24rem;
+        font-size: .26rem;
+        height: .44rem;
+        line-height: .44rem;
+        color: #666;
+
+        p {
+            width: 2rem;
+            float: left;
+            height: .44rem;
+            line-height: .44rem;
+        }
+
+        div {
+            width: 1.5rem;
+            float: right;
+            height: .44rem;
+            line-height: .44rem;
+
+            p {
+                width: .5rem;
+                height: .44rem;
+                line-height: .4rem;
+                float: left;
+                text-align: center;
+                font-size: .36rem;
+            }
+
+            input {
+                width: .4rem;
+                text-align: center;
+                height: .3rem;
+                float: left;
+            }
+        }
+    }
+
+    .goods-detail-introduce {
+        width: 7.5rem;
+        margin: 0 auto;
+        background: #eee;
+        padding-top: .4rem;
+
+        .inf-title {
+            width: 7.5rem;
+            height: .3rem;
+            line-height: .3rem;
+            margin: 0 auto .4rem;
+            padding: 0 .32rem;
+            box-sizing: border-box;
+
+            i {
+                width: 2.4rem;
+                height: 1px;
+                float: left;
+                background: #ccc;
+                margin-top: .2rem;
+            }
+
+            b {
+                width: 2rem;
+                text-align: center;
+                float: left;
+                font-size: .32rem;
+                color: #333;
+            }
+        }
+
+        img {
+            width: 7.5rem;
+
+        }
+    }
+    .buy-now{
+        width: 7.5rem;
+        height: .98rem;
+        margin: 0 auto;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3.75rem;
+        background: #fff;
+        .to-home{
+            width: 1.2rem;
+            float: left;
+            text-align: center;
+            font-size: .24rem;
+            padding-top: .1rem;
+            img{
+                width: .44rem;
+                height: .44rem;
+                
+
+            }
+        }
+        .to-buy{
+            width: 6.3rem;
+            float: left;
+            height: .98rem;
+            line-height: .98rem;
+            background: #FD5F65;
+            color: #fff;
+            font-size: .26rem;
+            text-align: center;
+        }
+    }
+
+}

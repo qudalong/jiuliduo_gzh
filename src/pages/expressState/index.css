@@ -1,0 +1,130 @@
+.express-state-wrap {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #F9F8F8;
+}
+
+.express-state-wrap .mint-header {
+  background: #F9F8F8;
+  color: #333;
+}
+
+.express-state-wrap .express-flow {
+  background: #fff;
+}
+
+.express-state-wrap .express-flow .express {
+  width: 7.5rem;
+  margin: 0 auto;
+  padding: 0 0.3rem 0 .5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.express-state-wrap .express-flow .express .img {
+  width: .94rem;
+  height: .94rem;
+  float: left;
+  margin-top: 0.4rem;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  background: #008FD7;
+}
+
+.express-state-wrap .express-flow .express .img img {
+  width: .94rem;
+  height: .94rem;
+}
+
+.express-state-wrap .express-flow .express .mint-cell {
+  padding: .4rem 0;
+  font-size: .26rem;
+}
+
+.express-state-wrap .express-flow .express .mint-cell .mint-cell-text {
+  font-size: .26rem;
+  color: #333;
+}
+
+.express-state-wrap .express-flow .express .mint-cell .mint-cell-label {
+  line-height: 1.5;
+  font-size: .26rem;
+  color: #999;
+}
+
+.express-state-wrap .express-flow .time-line {
+  padding: 0.3rem .4rem .3rem;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list .end-time {
+  width: 1rem;
+  float: left;
+  font-size: .2rem;
+  text-align: center;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list .mid-icon {
+  width: .4rem;
+  float: left;
+  margin-left: .2rem;
+  margin-right: .2rem;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list .mid-icon .icon {
+  background: #FD5F65;
+  color: #fff;
+  width: .4rem;
+  height: .4rem;
+  border-radius: 50%;
+  line-height: .4rem;
+  text-align: center;
+  font-size: .26rem;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list .mid-icon .icon img {
+  width: .24rem;
+  height: .18rem;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list .mid-icon .line {
+  width: 0;
+  border-left: 1px dashed #eee;
+  height: 1rem;
+  margin: 0 auto;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list .express-inf {
+  width: 4.8rem;
+  float: left;
+  font-size: .26rem;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list .express-inf .state {
+  margin-bottom: .1rem;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list:last-child .icon {
+  background: #999;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list:last-child .line {
+  display: none;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list:last-child .state {
+  color: #999 !important;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list:first-child .icon {
+  background: #999;
+}
+
+.express-state-wrap .express-flow .time-line .time-line-list:first-child .state {
+  color: #999 !important;
+}
+/*# sourceMappingURL=index.css.map */

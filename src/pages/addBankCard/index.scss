@@ -1,0 +1,40 @@
+.add-bank-card-wrap {
+    width: 7.5rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #F9F8F8;
+
+    .mint-header {
+        background: #F9F8F8;
+        color: #333;
+    }
+
+    .mint-cell {
+        padding: 0 .3rem;
+        color: #333;
+        border-bottom: 1px solid #eee;
+
+        input {
+            font-size: .26rem;
+        }
+
+        .mint-cell-text {
+            font-size: .26rem;
+        }
+
+        .code {
+            font-size: .26rem;
+            color: #FD5F65;
+        }
+
+    }
+
+    .submit-btn {
+        .mint-button {
+            width: 6.9rem;
+            margin: 3.4rem auto 1rem;
+            font-size: .26rem;
+        }
+    }
+
+}

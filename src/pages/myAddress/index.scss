@@ -1,0 +1,45 @@
+.my-address-wrap {
+    width: 7.5rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #F9F8F8;
+
+    .mint-header {
+        background: #F9F8F8;
+        color: #333;
+    }
+
+    .address-list {
+        padding: .2rem .3rem;
+        background: #fff;
+        border-bottom: 1px solid #eee;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .middle {
+            flex: 1;
+            overflow: hidden;
+            color: #333;
+            .middle-name {
+                padding-bottom: .1rem;
+            }
+        }
+        .edit-address {
+            width: 1rem;
+            text-align: center;
+            color: #999;
+        }
+    }
+
+    .mint-cell {
+        padding: 0rem 0.22rem;
+
+        .mint-cell-text {
+            font-size: .26rem;
+            color: #333;
+        }
+    }
+
+
+
+}

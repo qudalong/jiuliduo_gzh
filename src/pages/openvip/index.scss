@@ -1,0 +1,74 @@
+.openvip-wrap {
+    width: 7.5rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #F9F8F8;
+
+    .mint-header {
+        background: #F9F8F8;
+        color: #333;
+    }
+
+    .banner {
+        width: 7.5rem;
+        height: 2.8rem;
+        margin: 0 auto;
+
+        img {
+            width: 7.5rem;
+            height: 2.8rem;
+        }
+    }
+
+    .mint-cell {
+        border-bottom: 1px solid #eee;
+        padding: 0 .3rem;
+
+        .mint-cell-text {
+            font-size: .26rem;
+            color: #333;
+        }
+
+        img {
+            width: .32rem;
+            height: .32rem;
+        }
+    }
+
+    .agree-radio {
+        padding: .2rem .3rem;
+        height: .26rem;
+        line-height: .26rem;
+
+        input {
+            float: left;
+            margin-right: .1rem;
+            margin-top: 0.01rem;
+        }
+
+        i {
+            float: left;
+            font-size: .26rem;
+        }
+    }
+
+    .submit-btn {
+        button {
+            width: 6.9rem;
+            height: .8rem;
+            display: block;
+            line-height: .8rem;
+            background: #ccc;
+            margin: 5rem auto .6rem;
+            font-size: .26rem;
+            border-radius: .2rem;
+            color: #fff;
+
+        }
+
+        .active {
+            background: #FD5F65;
+        }
+    }
+
+}

@@ -1,0 +1,123 @@
+.order-wrap {
+    width: 7.5rem;
+    height: 100vh;
+    margin: 0 auto;
+    background: #F9F8F8;
+
+    .mint-header {
+        color: #333;
+        background: #F9F8F8;
+    }
+
+    .mint-cell-reset {
+        font-size: .26rem;
+        color: #333;
+        border-bottom: 1px solid #eee;
+        padding: 0 .2rem;
+        .mint-cell-text{
+            font-size: .26rem;
+        }
+        .mint-cell-value {
+            font-size: .24rem;
+            color: #FD5F65;
+        }
+    }
+    .address{
+        width: 7.5rem;
+        margin: 0 auto;
+        padding:0 0 0 .3rem;
+        box-sizing: border-box;
+        background: #fff;
+        border-bottom: 1px solid #eee;
+        .img{
+            width: .64rem;
+            height: .64rem;
+            float: left;
+            margin-top: 0.56rem;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            text-align: center;
+            img{
+                width: .27rem;
+                height: .35rem;
+                margin-top: .13rem;
+            }
+        }
+        .mint-cell{
+            padding: .4rem 0;
+            font-size: .26rem;
+            .mint-cell-text{
+                font-size: .26rem;
+            }
+            .mint-cell-label{
+                line-height: 1.5;
+                font-size: .26rem;
+            }
+        }
+    }
+    .goods-inf {
+        width: 7.5rem;
+        padding: .3rem;
+        box-sizing: border-box;
+        background: #fff;
+        border-bottom: 1px solid #eee;
+
+        img {
+            width: 2rem;
+            height: 2rem;
+            float: left;
+        }
+
+        .order-inf {
+            width: 4.5rem;
+            float: right;
+
+            h4 {
+                font-size: .26rem;
+                color: #333;
+                line-height: .36rem;
+                height: .72rem;
+                overflow: hidden;
+                font-weight: normal;
+            }
+
+            .price {
+                margin: .4rem auto;
+
+                i {
+                    float: left;
+                    color: red;
+                    font-size: .32rem;
+                    font-weight: bold;
+                }
+
+                b {
+                    float: right;
+                    font-size: .26rem;
+                    color: #666;
+                }
+            }
+
+            .all-price {
+                text-align: right;
+                color: #333;
+
+                i {
+                    color: red;
+                    font-size: .32rem;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .submit-btn {
+        .mint-button {
+            width: 6.9rem;
+            margin: 4rem auto 0rem;
+            font-size: .26rem;
+        }
+    }
+
+}
